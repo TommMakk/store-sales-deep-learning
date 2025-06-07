@@ -65,7 +65,7 @@ pip install -r requirements.txt
 Run the data processing pipeline to generate interim datasets:
 
 ```bash
-python store-sales-DL/dataset.py
+python store_sales_DL/dataset.py
 ```
 
 <details> <summary><strong>Alternatively, use Make:</strong></summary>
@@ -77,7 +77,7 @@ make dataset
 Next, generate the full set of modeling features and processed datasets:
 
 ```bash
-python store-sales-DL/features.py
+python store_sales_DL/features.py
 ```
 The `features.py` script is responsible for advanced feature engineering and assembling the final processed datasets used for model training and evaluation.
 <details> <summary><strong>Alternatively, use Make:</strong></summary>
@@ -92,7 +92,7 @@ make features
 Train the deep learning model:
 
 ```bash
-python store-sales-DL/modeling/train.py
+python store_sales_DL/modeling/train.py
 ```
 <details> <summary><strong>Alternatively, use Make:</strong></summary>
 
@@ -106,7 +106,7 @@ make train
 Generate predictions using the trained model:
 
 ```bash
-python store-sales-DL/modeling/predict.py
+python store_sales_DL/modeling/predict.py
 ```
 <details> <summary><strong>Alternatively, use Make:</strong></summary>
 
