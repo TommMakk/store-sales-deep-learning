@@ -12,9 +12,13 @@
         <meta name="author" content="Tommi Makela">
       
       
-        <link rel="canonical" href="https://github.com/yourusername/store-sales-DL/getting-started/">
+        <link rel="canonical" href="https://github.com/yourusername/store-sales-DL/data_preparation/">
       
       
+        <link rel="prev" href="../getting_started/">
+      
+      
+        <link rel="next" href="../feature_engineering/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -22,7 +26,7 @@
     
     
       
-        <title>Getting started - Store Sales - Deep Learning Solution</title>
+        <title>Data Preparation - Store Sales - Deep Learning Solution</title>
       
     
     
@@ -74,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#getting-started" class="md-skip">
+        <a href="#data-preparation" class="md-skip">
           Skip to content
         </a>
       
@@ -108,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Getting started
+              Data Preparation
             
           </span>
         </div>
@@ -226,7 +230,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../getting_started.md" class="md-tabs__link">
+      <a href="../getting_started/" class="md-tabs__link">
         
   
   
@@ -243,9 +247,11 @@
   
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="../data_preparation.md" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
   
@@ -264,7 +270,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../feature_engineering.md" class="md-tabs__link">
+      <a href="../feature_engineering/" class="md-tabs__link">
         
   
   
@@ -283,7 +289,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../model_training.md" class="md-tabs__link">
+      <a href="../model_training/" class="md-tabs__link">
         
   
   
@@ -302,7 +308,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../model_inference.md" class="md-tabs__link">
+      <a href="../model_inference/" class="md-tabs__link">
         
   
   
@@ -321,7 +327,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../deep_learning.md" class="md-tabs__link">
+      <a href="../deep_learning/" class="md-tabs__link">
         
   
   
@@ -340,7 +346,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../project_structure.md" class="md-tabs__link">
+      <a href="../project_structure/" class="md-tabs__link">
         
   
   
@@ -359,7 +365,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../future_improvements.md" class="md-tabs__link">
+      <a href="../future_improvements/" class="md-tabs__link">
         
   
   
@@ -378,7 +384,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../references.md" class="md-tabs__link">
+      <a href="../references/" class="md-tabs__link">
         
   
   
@@ -465,7 +471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../getting_started.md" class="md-nav__link">
+      <a href="../getting_started/" class="md-nav__link">
         
   
   
@@ -484,10 +490,32 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../data_preparation.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Data Preparation
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -498,6 +526,62 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-raw-data-collection" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Raw Data Collection
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-data-processing-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Data Processing Pipeline
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Output
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Notes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -509,7 +593,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../feature_engineering.md" class="md-nav__link">
+      <a href="../feature_engineering/" class="md-nav__link">
         
   
   
@@ -531,7 +615,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../model_training.md" class="md-nav__link">
+      <a href="../model_training/" class="md-nav__link">
         
   
   
@@ -553,7 +637,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../model_inference.md" class="md-nav__link">
+      <a href="../model_inference/" class="md-nav__link">
         
   
   
@@ -575,7 +659,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../deep_learning.md" class="md-nav__link">
+      <a href="../deep_learning/" class="md-nav__link">
         
   
   
@@ -597,7 +681,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../project_structure.md" class="md-nav__link">
+      <a href="../project_structure/" class="md-nav__link">
         
   
   
@@ -619,7 +703,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../future_improvements.md" class="md-nav__link">
+      <a href="../future_improvements/" class="md-nav__link">
         
   
   
@@ -641,7 +725,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../references.md" class="md-nav__link">
+      <a href="../references/" class="md-nav__link">
         
   
   
@@ -676,6 +760,50 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-raw-data-collection" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Raw Data Collection
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-data-processing-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Data Processing Pipeline
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Output
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Notes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -693,10 +821,35 @@
   
 
 
-<h1 id="getting-started">Getting started<a class="headerlink" href="#getting-started" title="Permanent link">&para;</a></h1>
-<p>This is where you describe how to get set up on a clean install, including the
-commands necessary to get the raw data (using the <code>sync_data_from_s3</code> command,
-for example), and then how to make the cleaned, final data sets.</p>
+<h1 id="data-preparation">Data Preparation<a class="headerlink" href="#data-preparation" title="Permanent link">&para;</a></h1>
+<p>This section describes the steps taken to prepare the data for the Store Sales - Deep Learning Solution project.</p>
+<h2 id="1-raw-data-collection">1. Raw Data Collection<a class="headerlink" href="#1-raw-data-collection" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Download the competition data from <a href="https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data">Kaggle Store Sales - Time Series Forecasting</a>.</li>
+<li>Place all raw CSV files in the <code>data/raw/</code> directory.</li>
+</ul>
+<h2 id="2-data-processing-pipeline">2. Data Processing Pipeline<a class="headerlink" href="#2-data-processing-pipeline" title="Permanent link">&para;</a></h2>
+<p>The data processing pipeline is responsible for:
+- Loading raw data files (sales, stores, oil, holidays, etc.).
+- Merging datasets to create a unified view.
+- Handling missing values and correcting data types.
+- Saving interim datasets to <code>data/interim/</code> for further processing.</p>
+<p>You can run the data processing pipeline with:</p>
+<p>python store-sales-DL/dataset.py</p>
+<p>or, using the Makefile:</p>
+<p>make dataset</p>
+<h2 id="3-output">3. Output<a class="headerlink" href="#3-output" title="Permanent link">&para;</a></h2>
+<ul>
+<li>The processed interim datasets are saved in the <code>data/interim/</code> directory.</li>
+<li>These datasets are used as input for the feature engineering step.</li>
+</ul>
+<h2 id="4-notes">4. Notes<a class="headerlink" href="#4-notes" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Ensure all raw data files are present and named correctly before running the pipeline.</li>
+<li>Review the logs/output for any warnings or errors during processing.</li>
+</ul>
+<hr />
+<p>For more details on feature engineering, see the <a href="../feature_engineering/">Feature Engineering</a> section.</p>
 
 
 
