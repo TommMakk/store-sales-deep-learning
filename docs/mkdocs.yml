@@ -1,4 +1,49 @@
-site_name: store-sales-DL
-# 
+site_name: Store Sales - Deep Learning Solution
 site_author: Tommi Makela
-# 
+site_description: "Documentation for a deep learning approach to the Kaggle Store Sales - Time Series Forecasting competition."
+site_url: https://github.com/yourusername/store-sales-DL
+
+repo_url: https://github.com/yourusername/store-sales-DL
+repo_name: GitHub
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: light blue
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Getting Started: getting_started.md
+  - Data Preparation: data_preparation.md
+  - Feature Engineering: feature_engineering.md
+  - Model Training: model_training.md
+  - Model Inference: model_inference.md
+  - Deep Learning Approach: deep_learning.md
+  - Project Structure: project_structure.md
+  - Future Improvements: future_improvements.md
+  - References: references.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - footnotes
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername/store-sales-DL
+    - icon: fontawesome/brands/kaggle
+      link: https://www.kaggle.com/competitions/store-sales-time-series-forecasting/overview

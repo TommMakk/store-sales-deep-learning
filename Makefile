@@ -54,8 +54,25 @@ create_environment:
 	@bash -c "if [ ! -z `which virtualenvwrapper.sh` ]; then source `which virtualenvwrapper.sh`; mkvirtualenv $(PROJECT_NAME) --python=$(PYTHON_INTERPRETER); else mkvirtualenv.bat $(PROJECT_NAME) --python=$(PYTHON_INTERPRETER); fi"
 	@echo ">>> New virtualenv created. Activate with:\nworkon $(PROJECT_NAME)"
 	
+## Run dataset processing pipeline
+.PHONY: dataset
+dataset:
+	$(PYTHON_INTERPRETER) -m store_sales_DL.dataset
 
+## Run feature engineering pipeline
+.PHONY: features
+features:
+	$(PYTHON_INTERPRETER) -m store_sales_DL.features
 
+## Train the deep learning model
+.PHONY: train
+train:
+	$(PYTHON_INTERPRETER) -m store_sales_DL.modeling.train
+
+## Run model inference/prediction
+.PHONY: predict
+predict:
+	$(PYTHON_INTERPRETER) -m store_sales_DL.modeling.predict
 
 #################################################################################
 # PROJECT RULES                                                                 #
