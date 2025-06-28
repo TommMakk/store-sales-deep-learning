@@ -22,6 +22,7 @@ REPORTS_DIR = PROJ_ROOT / "reports"
 FIGURES_DIR = REPORTS_DIR / "figures"
 
 
+
 def drop_columns(df: pd.DataFrame, columns_to_drop: list) -> pd.DataFrame:
     """
     Drops specified columns from a DataFrame in a structured way.

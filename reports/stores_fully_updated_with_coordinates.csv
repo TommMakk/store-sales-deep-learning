@@ -1,0 +1,55 @@
+store_nbr,city,state,type,cluster,lat,lon
+1,Quito,Pichincha,D,13,-0.22985,-78.52495
+2,Quito,Pichincha,D,13,-0.22985,-78.52495
+3,Quito,Pichincha,D,8,-0.22985,-78.52495
+4,Quito,Pichincha,D,9,-0.22985,-78.52495
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,4,-0.25333,-79.17171
+6,Quito,Pichincha,D,13,-0.22985,-78.52495
+7,Quito,Pichincha,D,8,-0.22985,-78.52495
+8,Quito,Pichincha,D,8,-0.22985,-78.52495
+9,Quito,Pichincha,B,6,-0.22985,-78.52495
+10,Quito,Pichincha,C,15,-0.22985,-78.52495
+11,Cayambe,Pichincha,B,6,0.04084,-78.14524
+12,Latacunga,Cotopaxi,C,15,-0.93521,-78.61554
+13,Latacunga,Cotopaxi,C,15,-0.93521,-78.61554
+14,Riobamba,Chimborazo,C,7,-1.67098,-78.64712
+15,Ibarra,Imbabura,C,15,0.35171,-78.12233
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,3,-0.25333,-79.17171
+17,Quito,Pichincha,C,12,-0.22985,-78.52495
+18,Quito,Pichincha,B,16,-0.22985,-78.52495
+19,Guaranda,Bolivar,C,15,-1.59263,-79.00098
+20,Quito,Pichincha,B,6,-0.22985,-78.52495
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,6,-0.25333,-79.17171
+22,Puyo,Pastaza,C,7,-1.48369,-78.00257
+23,Ambato,Tungurahua,D,9,-1.24908,-78.61675
+24,Guayaquil,Guayas,D,1,-2.20584,-79.90795
+25,Salinas,Santa Elena,D,1,-2.21452,-80.95151
+26,Guayaquil,Guayas,D,10,-2.20584,-79.90795
+27,Daule,Guayas,D,1,-1.86032,-79.97683
+28,Guayaquil,Guayas,E,10,-2.20584,-79.90795
+29,Guayaquil,Guayas,E,10,-2.20584,-79.90795
+30,Guayaquil,Guayas,C,3,-2.20584,-79.90795
+31,Babahoyo,Los Rios,B,10,-1.80217,-79.53443
+32,Guayaquil,Guayas,C,3,-2.20584,-79.90795
+33,Quevedo,Los Rios,C,3,-1.02881,-79.46264
+34,Guayaquil,Guayas,B,6,-2.20584,-79.90795
+35,Playas,Guayas,C,3,-2.63199,-80.38808
+36,Libertad,Guayas,E,10,-2.233,-80.91039
+37,Cuenca,Azuay,D,2,-2.90055,-79.00453
+38,Loja,Loja,D,4,-3.99313,-79.20422
+39,Cuenca,Azuay,B,6,-2.90055,-79.00453
+40,Machala,El Oro,C,3,-3.25861,-79.96053
+41,Machala,El Oro,D,4,-3.25861,-79.96053
+42,Cuenca,Azuay,D,2,-2.90055,-79.00453
+43,Esmeraldas,Esmeraldas,E,10,0.9592,-79.65397
+44,Quito,Pichincha,A,5,-0.22985,-78.52495
+45,Quito,Pichincha,A,11,-0.22985,-78.52495
+46,Quito,Pichincha,A,14,-0.22985,-78.52495
+47,Quito,Pichincha,A,14,-0.22985,-78.52495
+48,Quito,Pichincha,A,14,-0.22985,-78.52495
+49,Quito,Pichincha,A,11,-0.22985,-78.52495
+50,Ambato,Tungurahua,A,14,-1.24908,-78.61675
+51,Guayaquil,Guayas,A,17,-2.20584,-79.90795
+52,Manta,Manabi,A,11,-0.96212,-80.7127
+53,Manta,Manabi,D,13,-0.96212,-80.7127
+54,El Carmen,Manabi,C,3,-0.27527,-79.46222
