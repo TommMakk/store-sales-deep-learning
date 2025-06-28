@@ -52,6 +52,7 @@ def plot_sales_over_time(df, date_col='date', sales_col='sales', legend_col='His
     )
     return fig
 
+
 def family_tile_selector(df, family_col='family', n_cols=4):
     """
     Streamlit widget for selecting families using clickable tiles arranged in columns.
