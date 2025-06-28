@@ -353,8 +353,8 @@ def main(
                 fig_map = ecuador_map(cities_df, provinces_geojson)
                 st.plotly_chart(fig_map, use_container_width=True)
     logger.success("Plot generation complete.")
-    #streamlit run store_sales_DL/dashboard.py
-
+    ###streamlit run store_sales_DL/dashboard.py
+    #test
 
 if __name__ == "__main__":
     main()
