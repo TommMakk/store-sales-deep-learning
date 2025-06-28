@@ -11,7 +11,7 @@ from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 from tensorflow.keras.models import load_model
-from store_sales_DL.config import MODELS_DIR, PROCESSED_DATA_DIR, RAW_DATA_DIR
+from store_sales_DL.config import MODELS_DIR, PROCESSED_DATA_DIR, RAW_DATA_DIR, REPORTS_DIR
 
 app = typer.Typer()
 
@@ -27,7 +27,7 @@ def main(
     #Output parameters for the training function
     test_predictions_output_path = PROCESSED_DATA_DIR / "test_predictions.npy",
     kaggle_submit_output_path = PROCESSED_DATA_DIR / "test_predictions_DL.csv",
-    dashboard_dataset_output_path = PROCESSED_DATA_DIR / "dashboard_data.csv"
+    dashboard_dataset_output_path = REPORTS_DIR / "dashboard_dataset.csv",
 ):
 
     logger.info("Performing inference for model...")
@@ -74,6 +74,11 @@ def main(
     stores_raw_df[['store_nbr', 'city', 'state']],
     on='store_nbr',
     how='left')
+    # ...existing code...
+    full_with_city_state = full_with_city_state.drop(columns=['id', 'onpromotion'])
+
+    # Keep only rows where date is after 2015-01-01
+    full_with_city_state = full_with_city_state[full_with_city_state['date'] > '2016-06-01']
     full_with_city_state.to_csv(dashboard_dataset_output_path, index=False)
 
     logger.success("Inference and visualization dataset creation complete.")

@@ -192,7 +192,7 @@ def ecuador_map(cities_df, provinces_geojson):
 #@app.command()
 def main(
    # Define the input paths
-    dashboard_dataset_path = PROCESSED_DATA_DIR / "dashboard_data.csv",
+    dashboard_dataset_path = REPORTS_DIR / "dashboard_dataset.csv",
     stores_with_coords_path = REPORTS_DIR / "stores_fully_updated_with_coordinates.csv",
     ecuador_geojson_path = REPORTS_DIR / "ecuador.geojson"
 
