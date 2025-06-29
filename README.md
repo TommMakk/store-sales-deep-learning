@@ -12,6 +12,16 @@ The goal is to predict daily sales for a large Ecuadorian grocery retailer, usin
 
 ---
 
+## Dashboard
+
+The streamlit dashboard provides interactive visualizations and filters for exploring store sales data in Ecuador.
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://tommmakk-store-sales-deep-learn-store-sales-dldashboard-ogemjm.streamlit.app/)
+
+![Dashboard Screenshot](/reports/Streamlit_dashboard_image.png)
+
+---
+
 ## Project Structure
 
 ```
@@ -29,7 +39,7 @@ The goal is to predict daily sales for a large Ecuadorian grocery retailer, usin
 ├── notebooks          <- Jupyter notebooks for exploration and analysis.
 ├── pyproject.toml     <- Project configuration and metadata.
 ├── references         <- Data dictionaries, manuals, and explanatory materials.
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+├── reports            <- Streamlit required datasets.
 │   └── figures        <- Generated graphics and figures for reporting.
 ├── requirements.txt   <- Python dependencies for the project.
 ├── setup.cfg          <- Configuration for code style tools.
@@ -42,7 +52,7 @@ The goal is to predict daily sales for a large Ecuadorian grocery retailer, usin
     │   ├── __init__.py
     │   ├── predict.py          <- Model inference code.
     │   └── train.py            <- Model training code.
-    └── plots.py                <- Visualization code.
+    └── dashboard.py                <- Code to build streamlit app.
 ```
 
 ---
